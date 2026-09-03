@@ -1,0 +1,17 @@
+@media (max-width: 900px) {
+  .hero h1 {
+    max-width: 100%;
+    font-size: clamp(3.75rem, 16vw, 6.5rem);
+  }
+
+  .hero__bottom > p {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
+}
+
+@media (max-width: 390px) {
+  .hero h1 {
+    font-size: 15.4vw;
+  }
+}
